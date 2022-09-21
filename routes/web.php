@@ -4,6 +4,8 @@ use App\Http\Controllers\Home;
 
 Route::redirect('/', 'auth/login');
 
+Route::get('dashboard', \App\Http\Controllers\DashboardController::class)->name('dashboard');
+
 Route::middleware(['auth', 'verified'])
     ->group(
         function () {
