@@ -14,6 +14,7 @@ return [
         'verification' => true,
         'captcha' => false,
         'workflow' => false,
+        'auto-crud' => true,
     ],
     'settings' => [
         [
