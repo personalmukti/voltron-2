@@ -8,4 +8,6 @@ final class Permission extends Enum
 {
     // sample permission
     // const POST_MANAGE = 'post.manage';
+    const DASHBOARD_VIEW = 'dashboard.view';
+
 }
